@@ -11,36 +11,61 @@
 
   <!-- Begin BODY -->
   <body>
-
-    <!-- Begin NAVBAR -->
-    <nav>
-    </nav><!-- End NAVBAR -->
-
-    <!-- Begin HEADER -->
-    <header>
+    <div class="navbar-wrapper">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>Will Murphy</h1>
-            <h3>Director / Editor / Student Developer</h3>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">\/\/\</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse pull-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Here</a></li>
+                <li><a href="#This">There</a></li>
+                <li><a href="#That">Elsewhere</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <img class="img-circle" width="250px" height="250px" src="images/wm.jpg" alt="Image of Will Murphy">
-            <p>aslkdj asl;kdfjl;askdjf l;asdf sls;akdjfl; alskdfjl;as jdfasdflkj fdlskajdfl; asfd. laksdjf lsd asldkfj adfl;kasjd fas;ldkj adflk;asjdfl ;asdf. as;ldkfjasl;kdfjlas;kdfj dlskjfsldfkj saldfkjads ;f.</p>
-          </div>
+        </nav>
+
+      </div>
+    </div><!-- ***END NAVBAR -->
+
+    <hr class="featurete-divider">
+
+    <!-- Begin Main Content -->
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-sm-8">
+          <h2 class="featurette-heading">Will Murphy:<span class="text-muted"> Director / Editor / <em>Student Developer</em></span></h2>
+          <p class="lead"> This is a landing page for my work as a programming student. I hope to build on it and showcase more of my skills along the way as I learn the basics of web development.</p>
+        </div>
+        <div class="col-sm-4">
+          <img class="fearturette-image img responsive center-block img-circle" width="250px" height="250px" src="images/wm.jpg" alt="Image of Will Murphy">
         </div>
       </div>
-    </header><!-- End HEADER -->
-    <hr>
-    <!-- Begin FOOTER -->
-    <footer>
-      <p>&copy; 2016 Will Murphy</p>
-    </footer><!-- End FOOTER -->
+    </div>
+    <!-- End Main Content -->
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/vendor/holder.min.js"></script>
+      <hr>
+
+      <!-- Begin FOOTER -->
+      <footer class="footer">
+        <p class="pull-right text-muted">&copy; 2016 Will Murphy</p>
+      </footer><!-- End FOOTER -->
+
+      <!-- Bootstrap JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/vendor/holder.min.js"></script>
+
+    </div>
   </body><!-- End BODY -->
 </html>

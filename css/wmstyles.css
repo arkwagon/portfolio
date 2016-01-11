@@ -1,5 +1,15 @@
 /*! HEADER */
 
 
-
 /*! BODY */
+.navbar-wrapper {
+  padding-bottom: 25px;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+.featurette-heading {
+  padding-top: 25px;
+}
