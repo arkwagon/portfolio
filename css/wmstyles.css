@@ -13,3 +13,8 @@ body {
 .featurette-heading {
   padding-top: 25px;
 }
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
