@@ -14,7 +14,26 @@ body {
   padding-top: 25px;
 }
 
-footer p {
+#profile {
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
+}
+
+.lead {
+  font-weight: lighter;
+}
+
+.projects {
+  text-align: center;
+  font-size: 25px;
+}
+
+.row1 {
+  text-align: center;
+}
+
+footer p {
+  padding-right: 25px;
   font-size: 10px;
 }
