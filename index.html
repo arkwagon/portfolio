@@ -1,51 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!-- Begin HEAD -->
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/holder.min.js"></script>
     <link href="css/wmstyles.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Will Murphy</title>
   </head><!-- End HEAD -->
 
-  <!-- Begin BODY -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">\/\/\</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse pull-right">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">MAIN</a></li>
-                <li><a href="#ABOUT">ABOUT</a></li>
-                <li><a href="#CONTACT">CONTACT</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div><!-- ***END NAVBAR -->
-
-    <hr class="featurete-divider">
+    <header>
+      <p class="logo">\/\/\</p>
+    </header>
 
     <!-- Begin Profile -->
     <div class="container" id="profile">
-      <h2 class="featurette-heading">Will Murphy:<span class="text-muted">  director / editor / <em>student developer</em></span></h2>
-      <p class="lead"> This is a landing page for my work as a programming student. I hope to build on it and showcase more of my skills along the way as I learn the basics of web development.</p>
-    </div>
-    <div>
-      <img class="fearturette-image img responsive center-block img-circle" width="250px" height="250px" src="images/wm.jpg" alt="Image of Will Murphy">
+      <div>
+        <h2 class="featurette-heading">Will Murphy:<span class="text-muted">  director / editor / <em>student developer</em></span></h2>
+        <p class="lead"> This is a landing page for my work as a programming student. I hope to build on it and showcase more of my skills along the way as I learn the basics of web development.</p>
+      </div>
+      <div>
+        <img class="fearturette-image img responsive center-block img-circle" width="250px" height="250px" src="images/wm.jpg" alt="Image of Will Murphy">
+      </div>
     </div><!-- End Profile -->
 
     <hr class="featurete-divider">
@@ -57,12 +33,17 @@
 
     <div class="container">
       <div class="row">
-        <div class="row1">
-          <div class="col-md-4">
-            <a href="https://github.com/arkwagon/bootstrap-playground"><span>BootStrap Playground</span></a>
-          </div>
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">
+          <a href="https://github.com/arkwagon/epicodus-madlib"><span class="glyphicon glyphicon-link"></span><span> Mad Lib</span></a>
+          <p>This site is an exercise in building basic forms with functions created in jQuery.</p>
+        </div>
+        <div class="col-md-4">
+          <a href="https://github.com/arkwagon/bootstrap-playground"><span class="glyphicon glyphicon-link"><span> BootStrap Playground</span></a>
+          <p>A mock travel site that is styled with bootstrap css.</p>
+        </div>
+        <div class="col-md-4">
+          <a href="https://github.com/arkwagon/catvsdog"><span class="glyphicon glyphicon-link"><span>Cat vs. Dog</spam></a>
+          <p>This site uses JavaScript and jQuery to manipulate and traverse the DOM.</p>
         </div>
       </div>
     </div>
@@ -70,14 +51,11 @@
 
       <!-- Begin FOOTER -->
       <footer class="container">
-        <p class="text-muted pull-right">&copy; 2016 Will Murphy</p>
+        <p class="text-muted">&copy;2016 Will Murphy</p>
       </footer><!-- End FOOTER -->
 
       <!-- Bootstrap JavaScript -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/vendor/holder.min.js"></script>
+
 
     </div>
   </body><!-- End BODY -->

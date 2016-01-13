@@ -1,17 +1,21 @@
 /*! HEADER */
-
-
-/*! BODY */
-.navbar-wrapper {
-  padding-bottom: 25px;
+header {
+  background-color: #202020;
+  min-height: 75px;
+  margin-top: 0;
 }
 
-body {
+html body {
   background-color: #F8F8F8;
 }
 
-.featurette-heading {
-  padding-top: 25px;
+.logo {
+  text-align: center;
+  color: #F8F8F8;
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 #profile {
@@ -29,11 +33,21 @@ body {
   font-size: 25px;
 }
 
-.row1 {
+.row {
   text-align: center;
 }
 
+.row span {
+  color: black;
+  font-size: 15px;
+}
+}
+
+footer {
+  padding-top: 50px;
+}
+
 footer p {
-  padding-right: 25px;
+  text-align: center;
   font-size: 10px;
 }
