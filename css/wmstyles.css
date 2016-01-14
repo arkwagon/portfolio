@@ -28,9 +28,22 @@ html body {
   font-weight: lighter;
 }
 
-.projects {
+.project {
+  font-size: 20px !important;
+}
+
+#projects {
   text-align: center;
   font-size: 25px;
+}
+
+#about {
+  text-align: center;
+  font-size: 25px;
+}
+
+.glyphicon-menu-down {
+  font-size: 20px !important;
 }
 
 .row {
@@ -41,7 +54,7 @@ html body {
   color: black;
   font-size: 15px;
 }
-}
+
 
 footer {
   padding-top: 50px;
